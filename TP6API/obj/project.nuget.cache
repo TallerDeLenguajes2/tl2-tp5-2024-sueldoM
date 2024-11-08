@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "07s/d7m267s=",
+  "dgSpecHash": "M/zDfGyRGdU=",
   "success": true,
-  "projectFilePath": "c:\\Users\\P0L0\\Desktop\\Archivos word\\15-Taller de Lenguajes 2\\TP5\\tl2-tp5-2024-sueldoM\\TP6API\\TP6API.csproj",
+  "projectFilePath": "C:\\Users\\P0L0\\Desktop\\Archivos word\\15-Taller de Lenguajes 2\\TP5\\tl2-tp5-2024-sueldoM\\TP6API\\TP6API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\P0L0\\.nuget\\packages\\microsoft.data.sqlite\\8.0.10\\microsoft.data.sqlite.8.0.10.nupkg.sha512",
     "C:\\Users\\P0L0\\.nuget\\packages\\microsoft.data.sqlite.core\\8.0.10\\microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
