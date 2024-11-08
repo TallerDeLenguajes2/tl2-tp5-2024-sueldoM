@@ -8,7 +8,13 @@ namespace TP6API.Controllers;
 [Route("[controller]")]
 public class PresupuestosController: ControllerBase
 {
-    private PresupuestosRepository? presupuestoRepository;
+    private PresupuestosRepository presupuestoRepository;
+
+        public PresupuestosController()
+    {
+        presupuestoRepository = new PresupuestosRepository();
+    }
+
 
     [HttpPost]
     public IActionResult CrearPresupuesto([FromBody] Presupuesto presupuesto)
@@ -20,7 +26,8 @@ public class PresupuestosController: ControllerBase
     [HttpGet]
     public ActionResult<List<Presupuesto>> ListarPresupuestos()
     {
-        return Ok(presupuestoRepository.ListarPresupuestos());
+        var presupuestos = presupuestoRepository.ListarPresupuestos();
+        return Ok(presupuestos);
     }
 
     [HttpGet("{id}")]

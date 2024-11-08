@@ -7,5 +7,5 @@ public class Presupuesto{
     public int IdPresupuesto { get => idPresupuesto; set => idPresupuesto = value; }
     public string? NombreDestinatario1 { get => NombreDestinatario; set => NombreDestinatario = value; }
     public string? FechaCreacion1 { get => FechaCreacion; set => FechaCreacion = value; }
-    public List<PresupuestoDetalle?> Detalle { get => detalle; set => detalle = value; }
+    public List<PresupuestoDetalle>? Detalle { get => detalle; set => detalle = value; }
 }
